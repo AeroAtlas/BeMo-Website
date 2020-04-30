@@ -4,7 +4,6 @@ const loginController = require("../../controllers/loginController");
 //For signing up
 router.route("/")
   .get(loginController.findAll)
-  // .get(scoreController.findHighest)
   .post(loginController.create)
 
 //For logging in

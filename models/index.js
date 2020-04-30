@@ -1,3 +1,3 @@
 module.exports = {
-  Login: require("./login")
+  Login: require("./login.js")
 };
