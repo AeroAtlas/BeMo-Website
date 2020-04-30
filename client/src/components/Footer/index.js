@@ -15,8 +15,8 @@ function Footer() {
         </div>
         <div id="socialicons">
           <div id="socialicons1"></div>
-          <a class="social" href="https://www.facebook.com/bemoacademicconsulting">F</a>
-          <a class="social" href="https://twitter.com/BeMo_AC">L</a>
+          <a className="social" href="https://www.facebook.com/bemoacademicconsulting">F</a>
+          <a className="social" href="https://twitter.com/BeMo_AC">L</a>
         </div>
       </footer>
   );

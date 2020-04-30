@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import bgImage from "./bemo-logo2.png"
 
 function Nav() {
   return (

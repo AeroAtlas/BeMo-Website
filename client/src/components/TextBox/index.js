@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "@testing-library/react";
+// import { render } from "@testing-library/react";
 // import "./style.css";
 
 
@@ -25,7 +25,7 @@ export function Text() {
                   <a href="sample-cda-interview-questions.html" rel="self" title="CDA Interview Questions">Sample CDA interview questions</a>
                 </span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}><br></br></span>
-                <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}><a href="http://bemoacademicconsulting.com/Dental-School-Interview-Preparation.html" rel="external" target="_blank">BeMo CDA-structured interview prep program</a></span>
+                <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}><a href="http://bemoacademicconsulting.com/Dental-School-Interview-Preparation.html" rel="noopener noreferrer" target="_blank">BeMo CDA-structured interview prep program</a></span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}><br></br></span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}><a href="contact-us.php" rel="self" title="Contact Us">Contact us</a></span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}><br></br><br></br></span>
@@ -50,7 +50,7 @@ export function Text() {
                 </span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}> to practice with our sample CDA interview questions<br></br><br></br>Click </span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}>
-                  <a href="http://bemoacademicconsulting.com/Dental-School-Interview-Preparation.html" rel="external" target="_blank">here</a></span>
+                  <a href="http://bemoacademicconsulting.com/Dental-School-Interview-Preparation.html" rel="noopener noreferrer" target="_blank">here</a></span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}> to learn more about our money-back guarantee CDA interview preparation programs. <br></br><br></br></span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif", fontWeight:"bold"}}>Reference</span>
                 <span style={{font:"16px Arial, Verdana, Helvetica, sans-serif"}}>:<br></br><br></br>Poole A., Catano, VM., and Cunningham, DP. Predicting performance in Canadian dental schools: the new CDA structured interview, a new personality assessment, and the DAT. Journal of Dental Education. 2007; 71: 664 - 676.<br></br></span>

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 //import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import {ContactText} from "../components/TextBox"
-import bgImage from "../components/Images/contact-us.png"
 
 class Main extends Component{
 

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 //import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import {LogIn} from "../components/Form"
-import bgImage from "../components/Images/contact-us.png"
 
 class Main extends Component{
 
@@ -21,7 +20,7 @@ class Main extends Component{
       <Row>
         <Col size="md-12">
           <LogIn>
-            
+
           </LogIn>
         </Col>
       </Row>
