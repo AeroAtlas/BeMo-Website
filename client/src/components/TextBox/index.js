@@ -64,7 +64,7 @@ export function Text() {
 }
 
 export function ContactText() {
-  render(
+  return(
     <div id="container">
       <div id="extraContainer7"></div>
       <div id="extraContainer8"></div>

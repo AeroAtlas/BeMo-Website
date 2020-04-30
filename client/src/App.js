@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Main from "./pages/Main";
+import LogIn from "./pages/LogIn";
 // import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -18,6 +19,7 @@ class App extends React.Component{
           <Switch>
             <Route exact path="/" component={Main} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/login" component={LogIn} />
           </Switch>
           <Footer />
         </div>

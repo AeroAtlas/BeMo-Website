@@ -2,25 +2,6 @@ import React from "react";
 import "./style.css";
 import bgImage from "./bemo-logo2.png"
 
-// function Nav() {
-//   return (
-//     <nav className="navbar navbar-default navbar-inverse navbar-fixed-top desktopScreenNavbar">
-//       <a className="navbar-brand" href="/"> 
-//         Main
-//       </a>
-//       <a className="navbar-brand" href="/"> 
-//         How To Prepare
-//       </a>
-//       <a className="navbar-brand" href="/"> 
-//         CDA Interview Questions
-//       </a>
-//       <a className="navbar-brand" href="/contact">
-//         Contact Us
-//       </a>
-//     </nav>
-//   );
-// }
-
 function Nav() {
   return (
     <div id="wrapper">
@@ -31,6 +12,7 @@ function Nav() {
             <a href="http://cdainterview.com/">
               <div id="logo"><img src="http://cdainterview.com/rw_common/images/bemo-logo2.png" width="167" height="100" alt="Site logo"></img></div>
             </a>
+            <a href="/login" rel="self">Log In</a>
           </div>
 
           <div id="mwrap">
