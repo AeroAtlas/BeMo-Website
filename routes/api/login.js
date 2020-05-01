@@ -8,7 +8,7 @@ router.route("/")
 
 //For logging in
 router.route("/:id")
-  .get(loginController.findByName)
+  .get(loginController.findById)
   .put(loginController.update)
   .delete(loginController.remove)
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+import API from "../utils/API.js";
 import { Col, Row, Container } from "../components/Grid";
 // import {SignUp} from "../components/Form"
 
